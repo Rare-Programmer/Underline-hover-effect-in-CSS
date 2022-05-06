@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system;
+  font-size: 50px;
+  background: #e5f8fc;
+}
+
+div {
+  padding: 50px;
+}
+
+.gradient-underline {
+  text-decoration: none;
+  color: black;
+  background-image: linear-gradient(90deg, blue, purple, #f3bc26);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms;
+}
+
+.gradient-underline:hover {
+  background-size: 100% 3px;
+}
